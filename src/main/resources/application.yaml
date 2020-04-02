@@ -3,7 +3,7 @@ spring:
     name: SampleNF
 
 mvf4ms:
-  version: 2.1.1
+  version: 3.0.0
   dependencies:
     - name: dependency1
       dependence:
@@ -11,8 +11,8 @@ mvf4ms:
           serviceName: SampleAlipay
           patternUrl: /pay
           slas:
-            - 2
             - 3
+            - 4
 
 server:
   port: 8080
